@@ -1,0 +1,85 @@
+<!--
+Pascal Vos
+1422537vos
+26-02-2019
+-->
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <svg class="raket" xmlns="http://www.w3.org/2000/svg" width="2000" height="2000">         
+            <g class="links_Raket">
+                <ellipse id="links_Raket_Punt" cx="850" cy="1210" rx="50" ry="110" style="fill: white; stroke:black; stroke-width:2" />
+                <rect id="links_Raket_Midden" x="800" y="1200" width="100" height="600" stroke="black" stroke-width="2" fill="white"/>
+                <!-- Points eerste getal is de X en de tweede is Y -->
+                <polygon id="links_Raket_Links_Landing_Punt" points="800,1600 800,1800 850,1800 810,1600" stroke="black" stroke-width="2" fill="#262626"/>
+                <polygon id="links_Raket_Rechts_Landing_Punt" points="890,1600 850,1800 900,1800 900,1600" stroke="black" stroke-width="2" fill="#262626"/>
+                <!-- M eerste getal is de X en de tweede is Y  -->
+                <!-- q eerste getal is de linkse X punt de tweede is linkse Y punt en de derde is de rechter X punt en de vierde getal is Y-->
+                <path id="links_Raket_Links_Motor" d="M800 1827 q 25 -50 50 0" fill="white" stroke="grey" stroke-width="4"/>
+                <path id="links_Raket_Rechts_Motor" d="M850 1827 q 25 -50 50 0" fill="white" stroke="grey" stroke-width="4"/>
+                <path id="links_Raket_Vuur_Links_Onder" d="M800 1835 q 25 100 50 0" fill="#ff6600" stroke="none"/>
+                <path id="links_Raket_Vuur_Links_Midden" d="M810 1835 q 15 90 30 0" fill="#ffcc00" stroke="none"/>
+                <path id="links_Raket_Vuur_Links_Top" d="M818.5 1835 q 6.5 50 12.5 0" fill="yellow" stroke="none"/>          
+                <path id="links_Raket_Vuur_Rechts_Onder" d="M850 1835 q 25 100 50 0" fill="#ff6600" stroke="none"/>
+                <path id="links_Raket_Vuur_Rechts_Midden" d="M860 1835 q 15 90 30 0" fill="#ffcc00" stroke="none"/>
+                <path id="links_Raket_Vuur_Rechts_Top" d="M868.5 1835 q 6.5 50 12.5 0" fill="yellow" stroke="none"/>                          
+            </g>     
+            <g class="midden_Raket">
+                <ellipse id="midden_Raket_Punt" cx="1000" cy="360" rx="75" ry="110" style="fill: white; stroke:black; stroke-width:2" />
+                <rect id="midden_Raket_Top" x="925" y="350" width="150" height="300" stroke="black" stroke-width="2" fill="white"/>
+                <rect id="midden_Raket_Midden" x="950" y="700" width="100" height="1100" stroke="black" stroke-width="2" fill="white"/>
+                <rect id="midden_Raket_Streep" x="990" y="710" width="12.5" height="350" stroke="black" stroke-width="2" fill="white"/>
+                <text x="960" y="1150" fill="grey" font-size="52" font-weight="bold">FH</text>
+                <text x="953" y="1175" fill="grey" font-size="12" font-weight="bold">FALCON HEAVY</text>
+                <text x="500" y="500" fill="#1E90FF" transform="rotate(90 350,1125)" font-size="75" font-weight="bold">SPACE X</text>
+                <!-- Points eerste getal is de X en de tweede is Y -->
+                <polygon id="midden_Raket_Onder" points="925,650 950,700 1050,700 1075,650" stroke="black" stroke-width="2" fill="white"/>
+                <polygon id="midden_Raket_Links_Landing_Punt" points="950,1600 950,1800 1000,1800 960,1600" stroke="black" stroke-width="2" fill="#262626"/>
+                <polygon id="midden_Raket_Rechts_Landing_Punt" points="1040,1600 1000,1800 1050,1800 1050,1600" stroke="black" stroke-width="2" fill="#262626"/>
+                <!-- M eerste getal is de X en de tweede is Y  -->
+                <!-- q eerste getal is de linkse X punt de tweede is linkse Y punt en de derde is de rechter X punt en de vierde getal is Y-->
+                <path id="midden_Raket_Links_Motor" d="M950 1827 q 25 -50 50 0" fill="white" stroke="grey" stroke-width="4"/>
+                <path id="midden_Raket_Rechts_Motor" d="M1000 1827 q 25 -50 50 0" fill="white" stroke="grey" stroke-width="4"/>
+                <path id="midden_Raket_Vuur_Links_Onder" d="M950 1835 q 25 100 50 0" fill="#ff6600" stroke="none"/>
+                <path id="midden_Raket_Vuur_Links_Midden" d="M960 1835 q 15 90 30 0" fill="#ffcc00" stroke="none"/>
+                <path id="midden_Raket_Vuur_Links_Top" d="M968.5 1835 q 6.5 50 12.5 0" fill="yellow" stroke="none"/>          
+                <path id="midden_Raket_Vuur_Rechts_Onder" d="M1000 1835 q 25 100 50 0" fill="#ff6600" stroke="none"/>
+                <path id="midden_Raket_Vuur_Rechts_Midden" d="M1010 1835 q 15 90 30 0" fill="#ffcc00" stroke="none"/>
+                <path id="midden_Raket_Vuur_Rechts_Top" d="M1018.5 1835 q 6.5 50 12.5 0" fill="yellow" stroke="none"/>                          
+            </g>
+            <g class="rechts_Raket">
+                <ellipse id="rechts_Raket_Punt" cx="1150" cy="1210" rx="50" ry="110" style="fill: white; stroke:black; stroke-width:2" />
+                <rect id="rechts_Raket_Midden" x="1100" y="1200" width="100" height="600" stroke="black" stroke-width="2" fill="white"/>
+                <rect id="rechts_Raket_Streep" x="1145" y="1230" width="12.5" height="560" stroke="black" stroke-width="2" fill="white"/>
+                <!-- Points eerste getal is de X en de tweede is Y -->
+                <polygon id="rechts_Raket_Links_Landing_Punt" points="1100,1600 1100,1800 1150,1800 1110,1600" stroke="black" stroke-width="2" fill="#262626"/>
+                <polygon id="rechts_Raket_Rechts_Landing_Punt" points="1190,1600 1150,1800 1200,1800 1200,1600" stroke="black" stroke-width="2" fill="#262626"/>
+                <!-- M eerste getal is de X en de tweede is Y  -->
+                <!-- q eerste getal is de linkse X punt de tweede is linkse Y punt en de derde is de rechter X punt en de vierde getal is Y-->
+                <path id="rechts_Raket_Links_Motor" d="M1100 1827 q 25 -50 50 0" fill="white" stroke="grey" stroke-width="4"/>
+                <path id="rechts_Raket_Rechts_Motor" d="M1150 1827 q 25 -50 50 0" fill="white" stroke="grey" stroke-width="4"/>
+                <path id="rechts_Raket_Vuur_Links_Onder" d="M1100 1835 q 25 100 50 0" fill="#ff6600" stroke="none"/>
+                <path id="rechts_Raket_Vuur_Links_Midden" d="M1110 1835 q 15 90 30 0" fill="#ffcc00" stroke="none"/>
+                <path id="rechts_Raket_Vuur_Links_Top" d="M1118.5 1835 q 6.5 50 12.5 0" fill="yellow" stroke="none"/>          
+                <path id="rechts_Raket_Vuur_Rechts_Onder" d="M1150 1835 q 25 100 50 0" fill="#ff6600" stroke="none"/>
+                <path id="rechts_Raket_Vuur_Rechts_Midden" d="M1160 1835 q 15 90 30 0" fill="#ffcc00" stroke="none"/>
+                <path id="rechts_Raket_Vuur_Rechts_Top" d="M1168.5 1835 q 6.5 50 12.5 0" fill="yellow" stroke="none"/>                          
+            </g>
+            <g class="links_Connectie">
+                <rect id="links_Raket_Links_Boven_Connectie" x="850" y="1205" width="125" height="20" stroke="black" stroke-width="2" fill="#f2f2f2"/>
+                <rect id="links_Raket_Links_Onder_Connectie" x="900" y="1650" width="50" height="125" stroke="black" stroke-width="2" fill="#262626"/>
+            </g>
+            <g class="midden_Connectie">
+                <rect id="midden_Raket_Links_Boven_Connectie" x="975" y="1205" width="50" height="20" stroke="black" stroke-width="2" fill="#d9d9d9"/>
+            </g>
+            <g class="rechts_Connectie">
+                <rect id="rechts_Raket_Links_Boven_Connectie" x="1025" y="1205" width="125" height="20" stroke="black" stroke-width="2" fill="#f2f2f2"/>
+                <rect id="rechts_Raket_Links_Onder_Connectie" x="1050" y="1650" width="50" height="125" stroke="black" stroke-width="2" fill="#262626"/>
+            </g>
+        </svg>
+    </body>
+</html>
